@@ -1,0 +1,30 @@
+.footer {
+    padding: 80px;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footer a {
+    color: var(--brand-color-green);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

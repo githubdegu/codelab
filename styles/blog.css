@@ -1,0 +1,79 @@
+.blocos-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.bloco {
+    width: 592px;
+    background-color: var(--dark-20);
+    overflow: hidden;
+    border-radius: 8px 8px;
+}
+
+.bloco-topo {
+
+    background-color: var(--brand-color-purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.icone {
+    width: 150px;
+    height: 150px;
+}
+
+.bloco-inferior {
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blocos-container h2 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.detalhes {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #333333;
+    color: var(--white);
+    margin-right: auto;
+
+}
+
+.acessar {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: var(--brand-color-purple);
+    color: var(--white);
+    margin-left: auto;
+}
