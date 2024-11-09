@@ -18,7 +18,7 @@ header {
     fill: none;
 }
 
-header .nav-list {
+header .lista-navegacao {
     display: flex;
     align-items: center;
     gap: 48px;
@@ -27,19 +27,18 @@ header .nav-list {
     padding: 0;
 }
 
-header .nav-list a {
+header .lista-navegacao a {
     color: #FFF;
     text-decoration: none;
     font-size: 16px;
     margin: 0 10px;
 }
 
-header .nav-list a:hover {
+header .lista-navegacao a:hover {
     color: var(--brand-color-green);
 }
 
-.community-button {
-
+.botao-comunidade {
     background-color: var(--brand-color-purple);
     color: var(--white);
     border: none;
@@ -48,9 +47,8 @@ header .nav-list a:hover {
     border-radius: 8px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    border-radius: 8px;
 }
 
-.community-button:hover {
+.botao-comunidade:hover {
     background-color: var(--brand-color-green);
 }

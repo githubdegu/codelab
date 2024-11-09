@@ -1,10 +1,10 @@
-.footer {
+.rodape {
     padding: 80px;
     color: var(--white);
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
-.footer-content {
+.conteudo-rodape {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,19 +12,19 @@
     margin: 0 auto;
 }
 
-.footer p {
+.rodape p {
     margin: 0;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
 }
 
-.footer a {
+.rodape a {
     color: var(--brand-color-green);
     text-decoration: none;
     font-weight: 500;
 }
 
-.footer a:hover {
+.rodape a:hover {
     text-decoration: underline;
 }

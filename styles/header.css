@@ -1,16 +1,10 @@
-.s-about {
+.s-sobre {
     margin: 100px 0;
     padding: 50px 0;
     background-color: var(--dark-10);
 }
 
-.s-about .home {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.s-about .container {
+.s-sobre .container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,27 +15,27 @@
     gap: 20px;
 }
 
-.text-content {
+.conteudo-texto {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.subtitle {
+.subtitulo {
     font-size: 24px;
     color: var(--brand-color-green);
     font-weight: 500;
     line-height: 1.2;
 }
 
-.title {
+.titulo {
     color: var(--white);
     font-size: 48px;
     font-weight: 500;
     line-height: 1.2;
 }
 
-.description {
+.descricao {
     max-width: 595px;
     font-size: 24px;
     color: var(--white);
@@ -49,7 +43,7 @@
     line-height: 1.6;
 }
 
-.description-codelab {
+.descricao-codelab {
     font-size: 24px;
     color: var(--white);
     font-weight: 500;
@@ -57,14 +51,14 @@
     font-style: normal;
 }
 
-.project-images {
+.imagens-projeto {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.project-images .vetor {
+.imagens-projeto .vetor {
     width: 100%;
     max-width: 400px;
     border-radius: 8px;
